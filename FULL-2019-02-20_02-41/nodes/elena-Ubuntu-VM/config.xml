@@ -1,0 +1,18 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>elena-Ubuntu-VM</name>
+  <description></description>
+  <remoteFS>home/elena</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>EXCLUSIVE</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+  </launcher>
+  <label>linux ubuntu java1.8</label>
+  <nodeProperties/>
+</slave>
